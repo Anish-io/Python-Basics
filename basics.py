@@ -28,7 +28,7 @@ DAA = int(input("Enter the DAA mark: "))
 DTT = int(input("Enter the DTT mark: "))
 
 # Calculating the average of the marks
-average cls= (OS + DBDS + DAA + DTT) / 4
+average_cls= (OS + DBDS + DAA + DTT) / 4
 
     #Calculator
 a=int(input("Enter a number:"))
@@ -47,3 +47,5 @@ elif(operations=="Division"):
         print("Division by zero is invalid")
 else:
     print("Invalid operation")
+
+    
