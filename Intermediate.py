@@ -87,4 +87,23 @@ class channels:
         self.index=-1
     def __iter__(self):
         self.index=1
+
+
+#Dept Hod,Aml,Students
+class Aml:
+    def __init__(self, name, occupation, age=None):  # Added default value for age to prevent missing argument error
+        self.name = name
+        self.occupation = occupation
+        self.age = age
+
+    def work(self):
+        if self.occupation == "Head of department" and self.age="50":
+            print(self.name, "is the head of the department")
+        elif self.occupation == "Associate professor":  # Fixed `elif` syntax
+            print(self.name, "is the associate professor")
+        else:
+            print(self.name, "is the assistant professor")
+
+aiml = Aml("Lilly Raamesh", "Head of department","50")  # Removed missing 'age' argument
+aiml.work()
         
